@@ -22,7 +22,7 @@ System.out.println(driver.getCurrentUrl());
 WebElement currency = driver.findElement(By.xpath("//div[text()='INR']"));
 
 
-Select s=new Select("Currency"); Select s=new Select
+Select s=new Select("currency"); Select s=new Select
 s.selectByValue("AED");
 
 

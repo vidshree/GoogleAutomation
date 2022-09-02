@@ -106,7 +106,7 @@ public class OrangeHRM {
 		System.out.println(columns.get(4).getText());
 		columns.get(0).click();
 		Thread.sleep(3000);
-		         columns.get(6).click();
+		         columns.get(3).click();
 		         Thread.sleep(3000);
 		         WebElement loc1 = driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[3]"));
 		         loc1.clear();

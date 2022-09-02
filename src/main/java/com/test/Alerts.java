@@ -9,7 +9,7 @@ public class Alerts {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 	//	driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
@@ -45,7 +45,7 @@ public class Alerts {
 		Alert at2=driver.switchTo().alert();
 		at2.sendKeys("Vidya");
 		at2.accept();
-		driver.switchTo().frame(frameapla);
+		//driver.switchTo().frame(frameapla);
 		
 
 

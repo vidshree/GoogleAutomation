@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26" started-at="2022-08-23T15:36:23Z" finished-at="2022-08-23T15:36:23Z">
+  <suite name="Default suite" duration-ms="11465" started-at="2022-09-02T15:42:46Z" finished-at="2022-09-02T15:42:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26" started-at="2022-08-23T15:36:23Z" finished-at="2022-08-23T15:36:23Z">
-      <class name="com.test.FruitsTestNg">
-        <test-method status="PASS" signature="kiwi()[pri:1, instance:com.test.FruitsTestNg@643b1d11]" name="kiwi" duration-ms="6" started-at="2022-08-23T08:36:23Z" finished-at="2022-08-23T08:36:23Z">
+    <test name="Default test" duration-ms="11465" started-at="2022-09-02T15:42:46Z" finished-at="2022-09-02T15:42:58Z">
+      <class name="com.testng.OrangeHRMReports">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.testng.OrangeHRMReports@27efef64]" name="begin" is-config="true" duration-ms="145" started-at="2022-09-02T08:42:46Z" finished-at="2022-09-02T08:42:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- kiwi -->
-        <test-method status="PASS" signature="pineapple()[pri:2, instance:com.test.FruitsTestNg@643b1d11]" name="pineapple" duration-ms="1" started-at="2022-08-23T08:36:23Z" finished-at="2022-08-23T08:36:23Z">
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="orangeHRMLogin()[pri:0, instance:com.testng.OrangeHRMReports@27efef64]" name="orangeHRMLogin" duration-ms="11451" started-at="2022-09-02T08:42:46Z" finished-at="2022-09-02T08:42:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pineapple -->
-        <test-method status="PASS" signature="mango()[pri:3, instance:com.test.FruitsTestNg@643b1d11]" name="mango" duration-ms="0" started-at="2022-08-23T08:36:23Z" finished-at="2022-08-23T08:36:23Z">
+        </test-method> <!-- orangeHRMLogin -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.testng.OrangeHRMReports@27efef64]" name="finish" is-config="true" duration-ms="186" started-at="2022-09-02T08:42:58Z" finished-at="2022-09-02T08:42:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mango -->
-        <test-method status="PASS" signature="apple()[pri:4, instance:com.test.FruitsTestNg@643b1d11]" name="apple" duration-ms="1" started-at="2022-08-23T08:36:23Z" finished-at="2022-08-23T08:36:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apple -->
-        <test-method status="PASS" signature="banana()[pri:5, instance:com.test.FruitsTestNg@643b1d11]" name="banana" duration-ms="1" started-at="2022-08-23T08:36:23Z" finished-at="2022-08-23T08:36:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- banana -->
-      </class> <!-- com.test.FruitsTestNg -->
+        </test-method> <!-- finish -->
+      </class> <!-- com.testng.OrangeHRMReports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

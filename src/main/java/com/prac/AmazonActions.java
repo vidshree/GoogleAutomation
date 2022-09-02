@@ -14,22 +14,22 @@ public class AmazonActions {
 		System.setProperty("webdriver.chrome.driver", ".//driver/chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		//driver.get("https://www.amazon.com");
-		//driver.get("https://www.medplusmart.com/");
-		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.medplusmart.com/");
+		
 		driver.manage().window().maximize();
 		
-		//Actions a=new Actions(driver);
-	//	WebElement ele = driver.findElement(By.xpath("//input[@id='enterval']"));
-		//a.moveToElement(ele).click().sendKeys("Dolo650",Keys.ENTER).build().perform();
+		Actions a=new Actions(driver);
+		WebElement ele = driver.findElement(By.xpath("//input[@id='enterval']"));
+		a.moveToElement(ele).click().sendKeys("Dolo650",Keys.ENTER).build().perform();
 		
-	/*	WebElement healthstr = driver.findElement(By.xpath("//a[@title='Health Store']/parent::li"));
+		/*WebElement healthstr = driver.findElement(By.xpath("//a[@title='Health Store']/parent::li"));
 		Thread.sleep(3000);
 		WebElement baby = driver.findElement(By.xpath("//a[@title='Baby Needs']/.."));
 		Thread.sleep(3000);
 		WebElement wipes= driver.findElement(By.xpath("//a[@title='Baby Wipes']"));
 		Thread.sleep(3000);
-		a.moveToElement(healthstr).moveToElement(baby).moveToElement(wipes).click().build().perform();
-	*/
+		a.moveToElement(healthstr).moveToElement(baby).moveToElement(wipes).click().build().perform();*/
+	
 	}
 
 }

@@ -16,7 +16,7 @@ public class OrangeHRMScreenshot {
 	public static int i=0;
 	
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
 		 driver=new ChromeDriver();
@@ -27,16 +27,14 @@ public class OrangeHRMScreenshot {
 		driver.manage().window().maximize();
 	  System.out.println(driver.getCurrentUrl());
 	  System.out.println(driver.getTitle());
+	  Thread.sleep(2000);
 		
-		WebElement user = driver.findElement(By.xpath("//input[@id='txtUsername']"));
-		user.sendKeys("Admin");
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 		hm.snap();
 		
-		WebElement pswd = driver.findElement(By.xpath("//input[@id='txtPassword']"));
-		pswd.sendKeys("admin123");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 		hm.snap();
-		WebElement login = driver.findElement(By.xpath("//input[@id='btnLogin']"));
-		login.click();
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		hm.snap();
 		  
 

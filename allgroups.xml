@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="regression"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testng.medplus"/>
+      <class name="com.testng.DropdownTst"/>
+      <class name="com.testng.Search"/>
+      <class name="com.testng.MoveCursorTng"/>
+      <class name="com.testng.DoubleClick"/>
+      <class name="com.testng.Login"/>
+      <class name="com.testng.Webtable"/>
+      <class name="com.testng.KeyboardAct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

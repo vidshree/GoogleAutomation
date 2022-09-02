@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" parallel="true" name="Test">
+  
+    <classes>
+      <class name="com.testng.medplus"/>
+      <class name="com.testng.DropdownTst"/>
+      <class name="com.testng.MoveCursorTng"/>
+      <class name="com.testng.DoubleClick"/>
+      <class name="com.testng.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

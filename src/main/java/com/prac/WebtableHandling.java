@@ -16,7 +16,7 @@ public class WebtableHandling {
 		
 		WebElement tablehead = driver.findElement(By.xpath("//table[@id='webtable']"));
 		
-		List<WebElement> rows = driver.findElements(By.tagName("tr"));
+		List<WebElement> rows = tablehead.findElements(By.tagName("tr"));
 		
 		outer:
 		for(int i=1; i<rows.size();i++)
