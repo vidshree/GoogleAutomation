@@ -18,7 +18,7 @@ public class WebtableHandling {
 		
 		List<WebElement> rows = tablehead.findElements(By.tagName("tr"));
 		
-		outer:
+	//	outer:
 		for(int i=1; i<rows.size();i++)
 		{
 		List<WebElement> columns=rows.get(i).findElements(By.tagName("td"));
@@ -29,7 +29,7 @@ public class WebtableHandling {
 				if(value.equals("Facebook"))
 				{
 					System.out.println(columns.get(0).getText());
-					break outer;
+					//break outer;
 				}
 				
 				

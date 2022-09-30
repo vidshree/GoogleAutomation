@@ -8,7 +8,7 @@ public class FramePractice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".//driver/chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
         driver.get("https://demo.automationtesting.in/Frames.html");
 		

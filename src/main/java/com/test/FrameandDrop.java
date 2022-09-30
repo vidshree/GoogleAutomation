@@ -11,7 +11,7 @@ public class FrameandDrop {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
         driver.get("https://chercher.tech/practice/frames-example-selenium-webdriver");
 		
@@ -29,7 +29,7 @@ public class FrameandDrop {
 		
 		driver.switchTo().frame("frame2");
 		
-	//	WebElement frame2 = driver.findElement(By.xpath("//iframe[@id='frame2']"))
+		//WebElement frame2 = driver.findElement(By.xpath("//iframe[@id='frame2']"));
 		
 		WebElement animal= driver.findElement(By.xpath("//select[@id='animals']"));
 		Select s=new Select(animal);

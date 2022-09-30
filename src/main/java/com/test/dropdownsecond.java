@@ -9,7 +9,7 @@ public class dropdownsecond {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://chercher.tech/practice/practice-dropdowns-selenium-webdriver\r\n");
 		driver.manage().window().maximize();

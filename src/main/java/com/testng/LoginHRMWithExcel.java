@@ -53,7 +53,8 @@ public class LoginHRMWithExcel  {
 								String cellValue = "";
 								try{
 									cellValue = row.getCell(j).getStringCellValue();
-								}catch(NullPointerException e){
+								}catch(NullPointerException e)
+								{
 
 								}
 								data[i-1][j]  = cellValue; // add to the data array

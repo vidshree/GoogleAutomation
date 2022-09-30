@@ -43,6 +43,7 @@ public class OrangeHRMReports {
 	driver=new ChromeDriver();
 	driver.get("https://opensource-demo.orangehrmlive.com/");
 	driver.manage().window().maximize();
+	Thread.sleep(2000);
 	test.log(LogStatus.PASS,"Opened Website"+ test.addScreenCapture(snap()));
 	System.out.println(driver.getCurrentUrl());
 	System.out.println(driver.getTitle());

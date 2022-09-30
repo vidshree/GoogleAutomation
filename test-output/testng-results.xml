@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11465" started-at="2022-09-02T15:42:46Z" finished-at="2022-09-02T15:42:58Z">
+  <suite name="Default suite" duration-ms="5040" started-at="2022-09-21T15:40:11Z" finished-at="2022-09-21T15:40:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11465" started-at="2022-09-02T15:42:46Z" finished-at="2022-09-02T15:42:58Z">
-      <class name="com.testng.OrangeHRMReports">
-        <test-method status="PASS" signature="begin()[pri:0, instance:com.testng.OrangeHRMReports@27efef64]" name="begin" is-config="true" duration-ms="145" started-at="2022-09-02T08:42:46Z" finished-at="2022-09-02T08:42:46Z">
+    <test name="Default test" duration-ms="5040" started-at="2022-09-21T15:40:11Z" finished-at="2022-09-21T15:40:16Z">
+      <class name="com.prac.SmallValidation">
+        <test-method status="PASS" signature="qa()[pri:0, instance:com.prac.SmallValidation@5b275dab]" name="qa" duration-ms="5019" started-at="2022-09-21T08:40:11Z" finished-at="2022-09-21T08:40:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- begin -->
-        <test-method status="PASS" signature="orangeHRMLogin()[pri:0, instance:com.testng.OrangeHRMReports@27efef64]" name="orangeHRMLogin" duration-ms="11451" started-at="2022-09-02T08:42:46Z" finished-at="2022-09-02T08:42:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orangeHRMLogin -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:com.testng.OrangeHRMReports@27efef64]" name="finish" is-config="true" duration-ms="186" started-at="2022-09-02T08:42:58Z" finished-at="2022-09-02T08:42:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-      </class> <!-- com.testng.OrangeHRMReports -->
+        </test-method> <!-- qa -->
+      </class> <!-- com.prac.SmallValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

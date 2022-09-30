@@ -21,10 +21,11 @@ public class OrangeHRMWindowHandle {
 	
 	driver.manage().window().maximize();
 	parent=driver.getWindowHandle();
+	Thread.sleep(2000);
 	System.out.println(parent);
-	WebElement user = driver.findElement(By.xpath("//input[@id='txtUsername']"));
+	WebElement user = driver.findElement(By.xpath("//input[@name='username']"));
 	user.sendKeys("Admin");
-	WebElement pswd = driver.findElement(By.xpath("//input[@id='txtPassword']"));
+	WebElement pswd = driver.findElement(By.xpath("//input[@name='password']"));
 	pswd.sendKeys("admin123");
 	WebElement link = driver.findElement(By.xpath("//img[@alt='LinkedIn OrangeHRM group']"));
 	link.click();
@@ -56,7 +57,7 @@ while(it.hasNext())
 {
 	facebook=it.next();
 	if(!parent.equals(facebook))
-	{
+	{ 
 		driver.switchTo().window(facebook);
 	}
 }

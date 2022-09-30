@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24326" started-at="2022-09-08T15:39:57Z" finished-at="2022-09-08T15:40:21Z">
+    <groups>
+      <group name="sanity">
+        <method signature="Login.log()[pri:0, instance:com.testng.Login@52af6cff]" name="log" class="com.testng.Login"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="24326" started-at="2022-09-08T15:39:57Z" finished-at="2022-09-08T15:40:21Z">
+      <class name="com.testng.Login">
+        <test-method status="PASS" signature="log()[pri:0, instance:com.testng.Login@52af6cff]" name="log" duration-ms="8440" started-at="2022-09-08T15:40:13Z" finished-at="2022-09-08T15:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+      </class> <!-- com.testng.Login -->
+      <class name="com.testng.Navigation">
+        <test-method status="PASS" signature="backforwd()[pri:0, instance:com.testng.Navigation@531be3c5]" name="backforwd" duration-ms="10632" started-at="2022-09-08T15:40:02Z" finished-at="2022-09-08T15:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backforwd -->
+      </class> <!-- com.testng.Navigation -->
+      <class name="com.testng.IteraTestQA">
+        <test-method status="PASS" signature="testqa()[pri:0, instance:com.testng.IteraTestQA@3551a94]" name="testqa" duration-ms="5065" started-at="2022-09-08T15:39:57Z" finished-at="2022-09-08T15:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testqa -->
+      </class> <!-- com.testng.IteraTestQA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="25001" started-at="2022-09-08T15:40:21Z" finished-at="2022-09-08T15:40:46Z">
+    <groups>
+      <group name="regression">
+        <method signature="DoubleClick.dclick()[pri:0, instance:com.testng.DoubleClick@7ac7a4e4]" name="dclick" class="com.testng.DoubleClick"/>
+        <method signature="KeyboardAct.selectitem()[pri:0, instance:com.testng.KeyboardAct@50c87b21]" name="selectitem" class="com.testng.KeyboardAct"/>
+        <method signature="Search.medplussearch()[pri:0, instance:com.testng.Search@548b7f67]" name="medplussearch" class="com.testng.Search"/>
+        <method signature="Webtable.table()[pri:0, instance:com.testng.Webtable@6d78f375]" name="table" class="com.testng.Webtable"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DoubleClick.dclick()[pri:0, instance:com.testng.DoubleClick@7ac7a4e4]" name="dclick" class="com.testng.DoubleClick"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DoubleClick.dclick()[pri:0, instance:com.testng.DoubleClick@7ac7a4e4]" name="dclick" class="com.testng.DoubleClick"/>
+        <method signature="KeyboardAct.selectitem()[pri:0, instance:com.testng.KeyboardAct@50c87b21]" name="selectitem" class="com.testng.KeyboardAct"/>
+        <method signature="Search.medplussearch()[pri:0, instance:com.testng.Search@548b7f67]" name="medplussearch" class="com.testng.Search"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="25001" started-at="2022-09-08T15:40:21Z" finished-at="2022-09-08T15:40:46Z">
+      <class name="com.testng.KeyboardAct">
+        <test-method status="PASS" signature="selectitem()[pri:0, instance:com.testng.KeyboardAct@50c87b21]" name="selectitem" duration-ms="4257" started-at="2022-09-08T15:40:42Z" finished-at="2022-09-08T15:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectitem -->
+      </class> <!-- com.testng.KeyboardAct -->
+      <class name="com.testng.DoubleClick">
+        <test-method status="PASS" signature="dclick()[pri:0, instance:com.testng.DoubleClick@7ac7a4e4]" name="dclick" duration-ms="8600" started-at="2022-09-08T15:40:30Z" finished-at="2022-09-08T15:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dclick -->
+      </class> <!-- com.testng.DoubleClick -->
+      <class name="com.testng.Search">
+        <test-method status="PASS" signature="medplussearch()[pri:0, instance:com.testng.Search@548b7f67]" name="medplussearch" duration-ms="8685" started-at="2022-09-08T15:40:21Z" finished-at="2022-09-08T15:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- medplussearch -->
+      </class> <!-- com.testng.Search -->
+      <class name="com.testng.Webtable">
+        <test-method status="PASS" signature="table()[pri:0, instance:com.testng.Webtable@6d78f375]" name="table" duration-ms="3454" started-at="2022-09-08T15:40:39Z" finished-at="2022-09-08T15:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+      </class> <!-- com.testng.Webtable -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

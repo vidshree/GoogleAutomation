@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.prac.AmazonCartChk">
+      <class name="com.prac.OrangeHRMAssertion">
         <methods>
-          <include name="search"/>
-          <include name="cart"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.prac.AmazonCartChk -->
+      </class> <!-- com.prac.OrangeHRMAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
